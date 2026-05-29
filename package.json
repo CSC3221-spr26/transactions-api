@@ -8,6 +8,9 @@
     "dev": "nodemon --legacy-watch server.js",
     "seed": "node seed.js"
   },
+  "engines": {
+    "node": "20.x"
+  },
   "dependencies": {
     "dotenv": "^16.6.1",
     "express": "^4.22.2",
